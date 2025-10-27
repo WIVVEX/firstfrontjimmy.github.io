@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: Montserrat;
+    /* background: linear-gradient(90deg, #0d1a21 0%, #142a38 13%, #213e50 27%, #29576a 47%, #3c769a 65%, #529dcb 83%, #ffffff 100%); */
+    background: linear-gradient(90deg, #141514 0%, #1b1d1b 15%, #1e201e 30%, #1a1e1a 45%, #1b1d1b 50%, #1a1e1a 55%, #1e201e 70%, #1b1d1b 85%, #141514 100%);
+}
+
+.sidebar a {
+    color:rgb(152, 152, 152); 
+    text-decoration: none; 
+}
+
+.sidebar a:hover {
+    color: inherit; /* Сохраняет цвет при наведении */
+    text-decoration: underline; /* Добавляет подчеркивание при наведении (опционально) */
+}
+
+
+
+
+.navbar-expand-lg{
+    background-color: #202220;
+}
+
+.nav-link{
+    color: rgb(183, 180, 180);
+}
+
+.navbar-nav .nav-link.active{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand img{
+    width: 60px;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.sidebar{
+    color: white;
+    background: linear-gradient(90deg, #141514 0%, #1e201e 30%,  #1b1d1b 50%,  #1e201e 70%, #141514 100%);
+
+}
+
+.card{
+    background: linear-gradient(90deg, #141514 0%, #1b1d1b 15%, #1e201e 30%, #1a1e1a 45%, #1b1d1b 50%, #1a1e1a 55%, #1e201e 70%, #1b1d1b 85%, #141514 100%);
+    
+}
+
+
+.btn-primary{
+    background-color: #1e201e;
+    border-color: #ffffff;
+}
+
+.btn-primary:hover {
+background-color: #131413;
+border-color: #ffffff;
+}
+
+
+
+.card a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.footer-text{
+    font-size: larger;
+    color: #ffffff;
+    margin: auto auto;
+}
+
+footer{
+    background: linear-gradient(90deg, #141514 0%, #1e201e 30%,  #1b1d1b 50%,  #1e201e 70%, #141514 100%);
+}
+.slide-text{
+    font-size: xx-large;
+    color: #ffffff;
+    margin: auto auto;
+}
+
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.help{
+    color: #ffffff;
+    font-size: xx-large;
+}
+
+
+
+.question-anim{
+    animation: question 2s ease 0s infinite normal forwards;
+}
+
+@keyframes question {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+
+
+@media(max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }  
+}
+
+
+
